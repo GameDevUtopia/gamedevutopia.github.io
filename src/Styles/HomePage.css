@@ -1,0 +1,67 @@
+.welcome{
+    background-image: url('../images/CharterYacht.png');
+    height: 100%;
+    width:100%;
+
+}
+.heading{
+    font-size: xx-large;
+    text-align: center;
+}
+
+.home{
+    background-image: url('../images/CharterYacht.png');
+     background-repeat:no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 92%;
+    width: 100%;
+}
+
+.title{
+    color:#FCBE02 ;
+    font-size: 80px;
+   
+}
+.buttonClass{
+    color:black;
+    background-color: #FCBE02;
+    border-color: black;
+    border-radius: 30px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 50px;
+    
+
+}
+
+@media screen and (max-width: 768px) {
+    .title{
+        color:#FCBE02 ;
+        font-size: 40px;
+        margin-top: 150px;
+    }
+    
+    .home{
+        background-image: url('../images/CharterYacht.png');
+         background-repeat:no-repeat;
+        background-size: cover;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+
+    .buttonClass{
+        color:black;
+        background-color: #FCBE02;
+        border-color: black;
+        border-radius: 30px;
+        padding: 20px;
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 30px;
+        
+    
+    }
+}
