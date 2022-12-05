@@ -20,7 +20,10 @@ body {
   margin-left: auto;
   padding: 1rem;
 }*/
-
+.main_class{
+  /*background-image: linear-gradient(90deg, #111 40%, #444 70%, #f3c102 );*/
+  background-color: #010005DE;
+}
 article h1 {
   margin: 1rem 0;
 }

@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom"
 import yacht from "../images/CharterYacht.png"
 import "../Styles/HomePage.css";
-function LandingPageButton() {
+/*function LandingPageButton() {
     return (<button class=" buttonClass" > 
     <span className="buttonClass">
         About Us
@@ -30,14 +30,14 @@ function LandingFrameMessage() {
     </div>
 }
 function LandingFrame() {
-    /*const style = {
+    const style = {
         "background-image": `url({yacht})`,
         "background-repeat": "no-repeat",
         "background-size": "cover",
         position: "absolute",
         height: "100%",
         width: "100%"
-    }*/
+    }
     return <div className="home">
         <LandingFrameMessage />
     </div>
@@ -47,4 +47,16 @@ function HomePage() {
         <LandingFrame />
     </div>
 }
-export default HomePage
+export default HomePage*/
+
+const HomePage = () => {
+    return (
+        <div className='home'>
+            <h1>Welcome to GameDevUtopia</h1>
+            <p>A student-run Game Developers community</p>
+            <button class=" buttonClass">About Us</button>
+        </div>
+    );
+};
+
+export default HomePage;

@@ -5,22 +5,20 @@ import HomePage from "./Components/HomePage";
 import yacht from "./images/CharterYacht.png";
 import AboutUs from "./Components/AboutUs";
 import ContactForm from "./Components/ContactForm";
+import CardCarousel from './Components/ProjectGallery';
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return ( 
-    <div>
+    <div className="main_class">
       <Navbar/>
-     <HomePage/>
-
+      <HomePage/>
+      <AboutUs/>
+      <CardCarousel/>
+      
+     
       
       
-      <div >
       
-      
-        
-       
-       
-      </div>
      
     </div>
   );

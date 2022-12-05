@@ -1,4 +1,4 @@
-.welcome{
+/*.welcome{
     background-image: url('../images/CharterYacht.png');
     height: 100%;
     width:100%;
@@ -64,4 +64,60 @@
         
     
     }
-}
+}*/
+
+
+     .home {
+        width: 100%;
+        height: 100vh;
+        background-image: url("../images/CharterYacht.png");
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        background-repeat:no-repeat;
+    background-size: cover;
+        flex-direction: column;
+    
+    }
+    .home p{
+        color:white;
+        padding-top: 5px;
+      }
+      
+    .home h1 {
+        color:#FCBE02;
+        /*padding: 30px;*/
+       /* margin-bottom: 15%;*/
+       margin-top: 15%;
+       
+    }
+
+    .buttonClass{
+        color:black;
+        background-color: #FCBE02;
+        border-color: black;
+        border-radius: 25px;
+        padding: 15px;
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 25px;
+        
+        
+        
+    
+    }
+    .buttonClass:hover{
+         background-color: white;
+         color: #FCBE02;
+    }
+
+
+    @media screen and (max-width: 768px) {
+        .home h1 {
+            color:#FCBE02;
+            /*padding: 30px;*/
+           /* margin-bottom: 15%;*/
+           margin-top: 70%;
+           
+        }
+    } 
