@@ -3,13 +3,19 @@
     width: 100%;
     display: flex;
     align-items: center;
-    position: fixed;
+    position: sticky;
+    top: 0;
     padding: 0.5rem 0rem;
     background-color: rgb(2, 2, 2);
     color:#FCBE02;
     box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
     z-index:10;
   }
+
+  .link{
+    margin-top: 0.7rem;
+  }
+
   .gdu_logo{
     width: 40px;
     height:40px;
@@ -109,9 +115,12 @@
       color:#FCBE02;
      
       width: 100%;
-      padding: 1.5rem 0;
+      padding: 0.5rem 0;
     }
     .navigation-menu li:hover {
       background-color:rgb(2, 2, 2);
+    }
+    .link{
+      margin-top: 0;
     }
   }

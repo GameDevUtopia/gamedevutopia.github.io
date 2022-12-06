@@ -16,41 +16,47 @@ import Voxel from "../images/voxel_battle.jpg";
 const cardItems = [
   {
     id: 1,
-    title: "CHARTER YACHT",
+    title: "Charter Yacht",
     image:Charter_Yacht,
+    link:"https://teams24.itch.io/charter-yacht",
     copy:
-      "Charter Yacht is a unique game developed by Teams24 which comes under the category of survival game. The game’s unique design allows for the player’s brain to react quickly to the dynamically changing Game environment where the player has to stress upon their visual memory in order to chart a path for the Yacht, making this game a good source of adrenaline rush!"
+      "Charter Yacht is a unique game developed by Teams24 (a part of our club) which comes under the category of survival game. The game’s unique design allows for the player’s brain to react quickly to the dynamically changing Game environment where the player has to stress upon their visual memory in order to chart a path for the Yacht, making this game a good source of adrenaline rush!",
   },
   {
     id: 2,
     title: "Chaos Awakens",
     image:chaos,
-    copy: "Chaos Awakens is a game developed by Teams24 which comes under the category of shooter and survival games. The game’s unique design blends both the genres of games and employs a unique algorithm for solving the enemy-crowding problem in normal 2D shooter video games. The game is a sequel of the Voxel Battle and with some noteworthy changes made in the game design to make it more chaotic and addictive."
+    link:"https://teams24.itch.io/voxel-battle-chaos-awakens",
+    copy: "Chaos Awakens is a game developed by Teams24 (a part of our club) which comes under the category of shooter and survival games. The game’s unique design blends both the genres of games and employs a unique algorithm for solving the enemy-crowding problem in normal 2D shooter video games. The game is a sequel of the Voxel Battle and with some noteworthy changes made in the game design to make it more chaotic and addictive."
   },
   {
     id: 3,
     title: "Connect 4",
     image:Connect,
     copy:
-      "Connect 4 is a game developed by Teams24 which comes under the category of puzzles and party games and is currently published on the Itch.io platform. Inspired from the classic cross-and-naughts (commonly known as X and O), the game brings new complexity to the puzzle and its unique design and GUI facilitates realistic gameplay"
-  },
+      "Connect 4 is a game developed by Teams24 (a part of our club) which comes under the category of puzzles and party games and is currently published on the Itch.io platform. Inspired from the classic cross-and-naughts (commonly known as X and O), the game brings new complexity to the puzzle and its unique design and GUI facilitates realistic gameplay.",
+    link:"https://teams24.itch.io/connect-4"
+    },
   {
     id: 4,
     title: "Cubicles",
     image:Cubicles,
-    copy: "PICT Cubicles is a hyper-casual game developed by Teams24 and is currently hosted on itch.io platform. The game follows an infinite loop approach and has been inspired from everyone’s favourite hyper-casual game Flappy Bird by dotGears studios."
+    link:"https://teams24.itch.io/pict-cubicles",
+    copy: "PICT Cubicles is a hyper-casual game developed by Teams24 (a part of our club) and is currently hosted on itch.io platform. The game follows an infinite loop approach and has been inspired from everyone’s favourite hyper-casual game Flappy Bird by dotGears studios."
   },
   {
     id: 5,
-    title: "Star",
+    title: "Star Endurance",
     image:Star,
-    copy: "Star Endurance is a game developed by Gamedevutopia which comes under the category of third person survival shooter and is currently published on the Itch.io platform. The game design is inspired from the old school arcade game named Asteroid, which is a space themed multidirectional shooter.Our game adds various twists to that concept.</p>"
+    link:"https://teams24.itch.io/star-endurance",
+    copy: "Star Endurance is a game developed by GameDevUtopia which comes under the category of third person survival shooter and is currently published on the Itch.io platform. The game design is inspired from the old school arcade game named Asteroid, which is a space themed multidirectional shooter.Our game adds various twists to that concept."
   },
   {
     id: 6,
     title: "Voxel Battle",
     image:Voxel,
-    copy: "Voxel Battle is a game developed by Teams24 which comes under the category of shooter and survival games and is currently published on the Itch.io platform. The game’s unique design blends both the genres of games and employs a unique algorithm for solving the enemy-crowding problem in normal 2D shooter video games.</p>"
+    link:"https://teams24.itch.io/voxel-battle",
+    copy: "Voxel Battle is a game developed by Teams24 (a part of our club) which comes under the category of shooter and survival games and is currently published on the Itch.io platform. The game’s unique design blends both the genres of games and employs a unique algorithm for solving the enemy-crowding problem in normal 2D shooter video games."
   }
 ];
 
@@ -102,8 +108,8 @@ const CardCarousel = () => {
   }, [handleCardTransition, indexes]);
 
   return (
-    <div className="container">
-    <h1 className="project_heading">PROJECT GALLERY</h1>
+    <div className="justify-content-center gx-0 row align-self-center" id="project_gallery">
+    <h1 className="project_heading">Project Gallery</h1>
       <ul className="card-carousel">
         {cardItems.map((card, index) => (
           <li
@@ -111,10 +117,12 @@ const CardCarousel = () => {
             className={`Project_card ${determineClasses(indexes, index)}`}
           > 
             
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 project_col " ><img src={card.image}  alt="img not found" className="project_image"></img></div>
-                    <div class="col-md-9 col-sm-6 project_col" ><h2 style={{color:"#FCBE02",fontWeight:"bold",marginBottom:15}}>{card.title}</h2>
+                <div className="row">
+                    <div className="col-md-3 col-sm-6 project_col " ><img src={card.image}  alt="img not found" className="project_image"></img></div>
+                    <div className="col-md-9 col-sm-6 project_col" ><h2 className="game_name">{card.title}</h2>
             <p style={{textAlign:"justify-left",color:"white"}}>{card.copy}</p>
+            <br/>
+            <a href={card.link} className="playbtn">Play</a>
            
             
             </div>

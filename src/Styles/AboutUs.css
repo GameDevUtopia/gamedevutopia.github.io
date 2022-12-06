@@ -1,27 +1,27 @@
 
-  #about_us{
-    /*background-color:#010005DE;*/
+  /* #about_us{
+    background-color:#010005DE;
     width:100%;
-  }
+  } */
 
-#about_us p{
-  text-align: center;
+/* #about_us p{
+  text-align: left;
   color: white;
   margin-left: 5px;
   
-}
+} */
 .heading{
  font-weight: bold;
  font-size:3rem;
  color: #FCBE02;
- padding-right: 17%;
  padding-top: 2%;
  text-align: center;
  }
  
- #cards{
+ .cards{
   
-  margin-left:10%;
+  /* padding-left:10%;
+  padding-right: 10%; */
   padding-bottom: 10px;
  
  }
@@ -30,8 +30,9 @@
   background-color: rgba(243, 205, 70, 0.23);
   border-radius: 120px;
   max-width: '80%';
-  background-color:"#F6BE00";
-  border-radius:50;
+  margin:50px auto;
+  /* background-color:"#F6BE00"; */
+  
   margin:50;
 
 }
@@ -51,18 +52,15 @@
    
    
  padding:10%;
- margin-left: 40px;
+ margin:auto;
 }
 
 @media screen and (max-width: 768px) {
   
-  #cards{
-    margin-left: 1%;
-  }
   
   .card_image {
     height: 50px;
-    margin-left: 4%;
+    /* margin-left: 4%; */
     text-align: center;
   }
   .heading{
@@ -76,7 +74,7 @@
       color: #FCBE02;
       font-size: 1rem;
       padding: 10%;
-      text-align: center;
+      text-align:center;
     }
     .about_us_title{
       color:#FCBE02;
@@ -86,6 +84,17 @@
      text-align: center;
     }
     
+}
+
+.aboutParagraph {
+  /* display:flex;
+  
+  align-items: center; */
+  color:white;
+  text-align: justify;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-top: 10px;
 }
 
 /*<p>GameDevUtopia is the oﬃcial game development club of PICT established in 2020, allowing students to grow in the field of Game development. Gamedevutopia brings people aware of the domain of Game Development and realizes its importance as a ﬂourishing industry. GameDevUtopia supports the professional growth of its members by providing opportunities for life‐long learning, career development, and professional networking in game development. Gamedevutopia has six different teams LOVE 2D team, the Design Team, the Unity team, the Marketing team, Administration team, Web team that helps to improve student’s skills in different domains</p>*/

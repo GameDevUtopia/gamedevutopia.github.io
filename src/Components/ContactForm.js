@@ -1,6 +1,7 @@
 import React from 'react'
 import "../Styles/ContactUs.css";
 import joystick from "../images/joystick.png";
+import axios from 'axios';
 const ContactForm = () => {
   const [formStatus, setFormStatus] = React.useState('Send')
   const onSubmit = (e) => {
@@ -12,39 +13,45 @@ const ContactForm = () => {
       email: email.value,
       message: message.value,
     }
+    axios.defaults.headers.post['Content-Type'] = 'application/json';
+    axios.post('https://formsubmit.co/ajax/gamedevutopia@gmail.com', conFom)
+        .then(response => console.log(response))
+        .catch(error => console.log(error));
     console.log(conFom)
+    setFormStatus('Submitted ✔')
   }
   return (
     <section id="contactus">
-    <div class="row">
-      <div class="col-md-6"><div className="container mt-5 ">
+    <div className="gx-0 row">
+      {/* <div className="container mt-5 "> */}
       <h2 className="mb-3 contact_heading">Contact Us</h2>
       <form onSubmit={onSubmit}>
-        <div className="mb-3">
+        <input type="text" name="_honey" className='hidden' />
+        {/* <div className="mb-3"> */}
           <label className="form-label text" htmlFor="name" >
             Name
           </label>
-          <input className="form-control contact_input" type="text" id="name" required   />
-        </div>
-        <div className="mb-3">
+          <input className="form-control contact_input" type="text" id="name" name="name" required   />
+        {/* </div> */}
+        {/* <div className="mb-3"> */}
           <label className="form-label text" htmlFor="email" >
             Email
           </label>
-          <input className="form-control contact_input" type="email" id="email" required />
-        </div>
-        <div className="mb-3">
+          <input className="form-control contact_input" type="email" id="email" name="email" required />
+        {/* </div> */}
+        {/* <div className="mb-3"> */}
           <label className="form-label text" htmlFor="message">
             Message
           </label>
-          <textarea className="form-control contact_input" id="message" required />
-        </div>
-        <button className="btn btn-danger" type="submit">
+          <textarea className="form-control contact_input" id="message" name="message" required />
+        {/* </div> */}
+        <button className="btn btn-warning" type="submit">
           {formStatus}
         </button>
       </form>
-    </div></div>
-      <div class="col-md-6"><img src={joystick} style={{width:300,height:300,marginTop:150}}></img></div>
+      
     </div>
+    <div><img src={joystick} style={{width:300,height:300,marginTop:150}}></img></div>
     
     </section>
   )

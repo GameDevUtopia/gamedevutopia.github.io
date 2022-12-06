@@ -31,7 +31,7 @@ import "../../Styles/AboutUs.css";
 import {CCard,CCol,CCardImage,CCardBody,CCardTitle,CCardText,CRow} from "@coreui/react";
 function AboutUs_card(props)
 {
-    return ( <CCard className="mb-3 about_us_card" style={{ maxWidth: '80%',backgroundColor:"#EEEEEE3B",borderRadius:50,margin:50}} >
+    return ( <CCard className="mb-3 about_us_card" style={{ maxWidth: '80%',backgroundColor:"#EEEEEE3B",borderRadius:50}} >
     <CRow className="g-0">
       <CCol md={4}>
         <CCardImage src={props.image} className="card_image" style={{width:250,height:250}} />

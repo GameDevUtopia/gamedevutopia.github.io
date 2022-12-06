@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "../Styles/Navbar.css";
 import logo from "../images/gdu_logo.png";
-import menu from "../images/menu.png";
+// import menu from "../images/menu.png";
 export default function Navbar() {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
     return (
@@ -30,18 +30,18 @@ export default function Navbar() {
         </button>
         <div
           className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
-          <ul>
+          <ul className="link">
             <li>
-              <a className="NavLink" href="/home">Home</a>
+              <a className="NavLink" href="#" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>Home</a>
             </li>
             <li>
-              <a className="NavLink" href="/about">About Us</a>
+              <a className="NavLink" href="#about_us" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>About Us</a>
             </li>
             <li>
-              <a className="NavLink" href="/about">Project Gallery</a>
+              <a className="NavLink" href="#project_gallery" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>Project Gallery</a>
             </li>
             <li>
-              <a className="NavLink" href="/contact">Contact Us</a>
+              <a className="NavLink" href="#contactus" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>Contact Us</a>
             </li>
           </ul>
         </div>
