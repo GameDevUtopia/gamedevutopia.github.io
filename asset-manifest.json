@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/GDU_website-react/static/css/main.4cd301f2.css",
+    "main.js": "/GDU_website-react/static/js/main.93302216.js",
+    "static/js/787.05b59df5.chunk.js": "/GDU_website-react/static/js/787.05b59df5.chunk.js",
+    "static/media/Cubicles.png": "/GDU_website-react/static/media/Cubicles.54f0a254545a73ba63e9.png",
+    "static/media/CharterYacht.png": "/GDU_website-react/static/media/CharterYacht.9f859f4587b512f93dda.png",
+    "static/media/Charter_Yacht.png": "/GDU_website-react/static/media/Charter_Yacht.9f859f4587b512f93dda.png",
+    "static/media/gdu_logo.png": "/GDU_website-react/static/media/gdu_logo.7ecd244d3f80faa5df09.png",
+    "static/media/Connect.png": "/GDU_website-react/static/media/Connect.48a276a898e580e27967.png",
+    "static/media/joystick.png": "/GDU_website-react/static/media/joystick.cdc12114dc5b8e8cb05f.png",
+    "static/media/voxel_battle.jpg": "/GDU_website-react/static/media/voxel_battle.fa21ca872f24a3e4f901.jpg",
+    "static/media/code_image.png": "/GDU_website-react/static/media/code_image.6b43ee7c655f205d7c60.png",
+    "static/media/social_media.png": "/GDU_website-react/static/media/social_media.d595d518e898655d2f65.png",
+    "static/media/Chaos_Awakens.jpeg": "/GDU_website-react/static/media/Chaos_Awakens.4533e8fedad359d8053d.jpeg",
+    "static/media/web_design.png": "/GDU_website-react/static/media/web_design.e7fdce95b28dd26190f2.png",
+    "static/media/Star.png": "/GDU_website-react/static/media/Star.b8d8b7baafb5227d9937.png",
+    "static/media/unity_logo.png": "/GDU_website-react/static/media/unity_logo.476c154c9907b53486f5.png",
+    "index.html": "/GDU_website-react/index.html",
+    "main.4cd301f2.css.map": "/GDU_website-react/static/css/main.4cd301f2.css.map",
+    "main.93302216.js.map": "/GDU_website-react/static/js/main.93302216.js.map",
+    "787.05b59df5.chunk.js.map": "/GDU_website-react/static/js/787.05b59df5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cd301f2.css",
+    "static/js/main.93302216.js"
+  ]
+}
