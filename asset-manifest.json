@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/GDU_website-react/static/css/main.4cd301f2.css",
+    "main.css": "/GDU_website-react/static/css/main.d17e973c.css",
     "main.js": "/GDU_website-react/static/js/main.93302216.js",
     "static/js/787.05b59df5.chunk.js": "/GDU_website-react/static/js/787.05b59df5.chunk.js",
     "static/media/Cubicles.png": "/GDU_website-react/static/media/Cubicles.54f0a254545a73ba63e9.png",
@@ -17,12 +17,12 @@
     "static/media/Star.png": "/GDU_website-react/static/media/Star.b8d8b7baafb5227d9937.png",
     "static/media/unity_logo.png": "/GDU_website-react/static/media/unity_logo.476c154c9907b53486f5.png",
     "index.html": "/GDU_website-react/index.html",
-    "main.4cd301f2.css.map": "/GDU_website-react/static/css/main.4cd301f2.css.map",
+    "main.d17e973c.css.map": "/GDU_website-react/static/css/main.d17e973c.css.map",
     "main.93302216.js.map": "/GDU_website-react/static/js/main.93302216.js.map",
     "787.05b59df5.chunk.js.map": "/GDU_website-react/static/js/787.05b59df5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cd301f2.css",
+    "static/css/main.d17e973c.css",
     "static/js/main.93302216.js"
   ]
 }
