@@ -34,6 +34,9 @@ import graphic from "../images/graphic_design.png";
 import web_design from "../images/web_design.png";
 import marketing from "../images/social_media.png";
 import Founders from "./AboutUs_components/Founders";
+import apurv from "../images/Apurv.png";
+import mihir from "../images/mihir.jpg";
+import prajwal from "../images/prajwal.jpg";
 function AboutUs(){
     return ( <div id = "about_us" className="cards">
 
@@ -50,9 +53,9 @@ function AboutUs(){
         <AboutUs_card title="WebDev Team" text="Pushing the games made by our club to various platforms and updating this website is the job we do! Also we organize activities to help open-source web development!" image={web_design} />
         <div className="founders_title">Our Founders</div>
         <div className="founders_card">
-            <Founders name="Apurv Henkare" number="+91 83084 81404" />
-            <Founders name="Mihir Ranade" number="+91 72185 86049" />
-            <Founders name="Prajwal Pawar" number="+91 84214 29812" />
+            <Founders name="Apurv Henkare" number="+91 83084 81404" fimage={apurv} />
+            <Founders name="Mihir Ranade" number="+91 72185 86049" fimage={mihir} />
+            <Founders name="Prajwal Pawar" number="+91 84214 29812" fimage={prajwal}/>
         </div>
     </div>);
 }
