@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.72f41626.css",
-    "main.js": "/static/js/main.46ca571e.js",
+    "main.css": "/static/css/main.f4d37eb1.css",
+    "main.js": "/static/js/main.13e8c8f5.js",
     "static/js/787.05b59df5.chunk.js": "/static/js/787.05b59df5.chunk.js",
     "static/media/Cubicles.png": "/static/media/Cubicles.54f0a254545a73ba63e9.png",
     "static/media/CharterYacht.png": "/static/media/CharterYacht.9f859f4587b512f93dda.png",
     "static/media/Charter_Yacht.png": "/static/media/Charter_Yacht.9f859f4587b512f93dda.png",
     "static/media/gdu_logo.png": "/static/media/gdu_logo.7ecd244d3f80faa5df09.png",
     "static/media/Connect.png": "/static/media/Connect.48a276a898e580e27967.png",
+    "static/media/mihir.jpg": "/static/media/mihir.fe0b008230d0c5e0889b.jpg",
+    "static/media/prajwal.jpg": "/static/media/prajwal.65321b3621a9110c7330.jpg",
+    "static/media/Apurv.png": "/static/media/Apurv.5feee003c12047f017d6.png",
     "static/media/joystick.png": "/static/media/joystick.cdc12114dc5b8e8cb05f.png",
     "static/media/voxel_battle.jpg": "/static/media/voxel_battle.fa21ca872f24a3e4f901.jpg",
     "static/media/code_image.png": "/static/media/code_image.6b43ee7c655f205d7c60.png",
@@ -17,12 +20,12 @@
     "static/media/Star.png": "/static/media/Star.b8d8b7baafb5227d9937.png",
     "static/media/unity_logo.png": "/static/media/unity_logo.476c154c9907b53486f5.png",
     "index.html": "/index.html",
-    "main.72f41626.css.map": "/static/css/main.72f41626.css.map",
-    "main.46ca571e.js.map": "/static/js/main.46ca571e.js.map",
+    "main.f4d37eb1.css.map": "/static/css/main.f4d37eb1.css.map",
+    "main.13e8c8f5.js.map": "/static/js/main.13e8c8f5.js.map",
     "787.05b59df5.chunk.js.map": "/static/js/787.05b59df5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72f41626.css",
-    "static/js/main.46ca571e.js"
+    "static/css/main.f4d37eb1.css",
+    "static/js/main.13e8c8f5.js"
   ]
 }
