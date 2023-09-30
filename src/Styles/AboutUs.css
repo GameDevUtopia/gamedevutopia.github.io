@@ -40,12 +40,38 @@
 .about_us_text{
   color:white;
 }
+.about_us_fnum{
+  color:white;
+  position: relative;
+  left: -50px;
+  top: 200px;
+  text-align: center;
+}
 
 .about_us_title{
   color:#FCBE02;
   font-weight: bold;
  padding-bottom: 5%;
  font-size: xx-large;
+}
+.about_us_fname{
+  width: 100%;
+  color:#FCBE02;
+  font-weight: bold;
+ padding-bottom: 5%;
+ font-size: xx-large;
+ position: relative;
+  left: -50px;
+  top: 200px;
+  text-align: center;
+}
+.founders_title{
+  margin-top: 50px;
+  color: #FCBE02;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .card_image{
@@ -55,6 +81,17 @@
  margin:auto;
 }
 
+
+.founders_section{
+  background-color: rgba(243, 205, 70, 0.23);
+  border-radius: 120px;
+  margin: 50px;
+  max-width: '80%';
+}
+.founders_card{
+  display: flex;
+  justify-content: center;
+}
 @media screen and (max-width: 768px) {
   
   

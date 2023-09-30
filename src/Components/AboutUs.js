@@ -33,6 +33,7 @@ import unity from "../images/unity_logo.png";
 import graphic from "../images/graphic_design.png";
 import web_design from "../images/web_design.png";
 import marketing from "../images/social_media.png";
+import Founders from "./AboutUs_components/Founders";
 function AboutUs(){
     return ( <div id = "about_us" className="cards">
 
@@ -47,7 +48,12 @@ function AboutUs(){
         <AboutUs_card title="Design Team" text="When you see an amazing piece of artwork in any of our games and websites, it is thanks to our designers in this team! Here we work primarily in Blender for 3D modelling and Illustrator for 2D artworks." image={graphic} />
         <AboutUs_card title="Marketing Team" text="If you want to collaborate with us and make games happen, you contact us! Plus the growth and publicity of our club is our responsibility!" image={marketing} />
         <AboutUs_card title="WebDev Team" text="Pushing the games made by our club to various platforms and updating this website is the job we do! Also we organize activities to help open-source web development!" image={web_design} />
-   
+        <div className="founders_title">Our Founders</div>
+        <div className="founders_card">
+            <Founders name="Apurv Henkare" number="+91 83084 81404" />
+            <Founders name="Mihir Ranade" number="+91 72185 86049" />
+            <Founders name="Prajwal Pawar" number="+91 84214 29812" />
+        </div>
     </div>);
 }
 
