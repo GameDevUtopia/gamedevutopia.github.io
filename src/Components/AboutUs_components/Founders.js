@@ -11,7 +11,7 @@ function Founders({name, number, fimage})
       <CCol md={8} style={{margin:"0 auto" }} className='card_image'>
       <div className=' lg:h-40 md:h-36 md:w-36 lg:w-full  '>
 
-      <CCardImage src={fimage}  style={{}} className='min-[320px]:max-md:h-40 min-[320px]:max-md:w-20 px-4 pb-4 md:px-0 md:h-4'/>
+      <CCardImage src={fimage}  style={{}} className='min-[320px]:max-md:h-40 min-[320px]:max-md:w-20 px-4 pb-4 md:px-0 md:h-44'/>
       </div>
         {/* <AccountCircleIcon sx={{height:"200px", width:"200px", color:"white", margin:"8px 0 0 0" }} /> */}
       </CCol>
