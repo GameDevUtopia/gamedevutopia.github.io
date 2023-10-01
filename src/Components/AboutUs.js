@@ -38,7 +38,7 @@ import apurv from "../images/Apurv.png";
 import mihir from "../images/mihir.jpg";
 import prajwal from "../images/prajwal.jpg";
 function AboutUs(){
-    return ( <><div id = "about_us" className="cards max-h-none w-screen items-center mx-auto">
+    return ( <><div id = "about_us" className="cards w-full">
 
         <h1 className="justify-content-center gx-0 row align-self-center heading">
         About Us
