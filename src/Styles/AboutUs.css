@@ -89,10 +89,11 @@
 
 
 .founders_section{
-  background-color: rgba(243, 205, 70, 0.23);
-  border-radius: 120px;
   margin: 50px;
-  max-width: '80%';
+  /* maxWidth: '20%',backgroundColor:"#EEEEEE3B",borderRadius:30, height:"400px" */
+  max-width: 20%;
+  background-color: red;
+
 }
 .founders_card{
   display: flex;

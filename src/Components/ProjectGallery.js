@@ -108,6 +108,7 @@ const CardCarousel = () => {
   }, [handleCardTransition, indexes]);
 
   return (
+    <div className="lg:m-16">
     <div className="justify-content-center gx-0 row align-self-center" id="project_gallery">
     <h1 className="project_heading">Project Gallery</h1>
       <ul className="card-carousel">
@@ -135,6 +136,7 @@ const CardCarousel = () => {
           </li>
         ))}
       </ul>
+    </div>
     </div>
   );
 };

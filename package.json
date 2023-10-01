@@ -1,5 +1,5 @@
 {
-  "homepage": "http://gamedevutopia.in/",
+  "homepage": "https://gamedevutopia.in/",
   "name": "gdu_website",
   "version": "0.1.0",
   "private": true,
@@ -57,5 +57,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
   }
 }
