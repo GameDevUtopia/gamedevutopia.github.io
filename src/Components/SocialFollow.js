@@ -1,10 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-    faYoutube,
-    faLinkedin,
-    faTwitter,
-    faInstagram
+  faYoutube,
+  faLinkedin,
+  faTwitter,
+  faInstagram
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function SocialFollow() {
@@ -14,18 +14,22 @@ export default function SocialFollow() {
       <a href="https://www.instagram.com/gamedevutopia/"
         className="instagram social">
         <FontAwesomeIcon icon={faInstagram} size="2x" />
+        <p>PICT</p>
       </a>
       <a href="https://www.linkedin.com/company/gamedevutopia/"
         className="linkedin social">
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
+        <p>LinkedIn</p>
       </a>
-      <a href="https://www.twitter.com/GameDevUtopia1/" className="twitter social">
-        <FontAwesomeIcon icon={faTwitter} size="2x" />
+      <a href="https://www.instagram.com/gamedevutopia_iiitk/" className="instagram social">
+        <FontAwesomeIcon icon={faInstagram} size="2x" />
+        <p>IIITK</p>
       </a>
-      <a href="https://www.youtube.com/@gamedevutopia3007/"
+      {/* <a href="https://www.youtube.com/@gamedevutopia3007/"
         className="youtube social">
         <FontAwesomeIcon icon={faYoutube} size="2x" />
-      </a>
+        <p>Youtube</p>
+      </a> */}
     </div>
   );
 }

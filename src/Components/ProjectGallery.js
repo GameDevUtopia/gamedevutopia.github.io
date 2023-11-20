@@ -1,11 +1,13 @@
 import React, { useEffect, useCallback, useState } from "react";
 import "../Styles/ProjectGallery.css";
-import chaos from "../images/Chaos_Awakens.jpeg";
-import Charter_Yacht from "../images/Charter_Yacht.png";
-import Connect from "../images/Connect.png";
-import Cubicles from "../images/Cubicles.png";
-import Star from "../images/Star.png";
-import Voxel from "../images/voxel_battle.jpg";
+import Macabre from "../images/macabre.png"
+import dicey from "../images/dicey.jfif"
+import event_horizon from "../images/event_horizon.JPG"
+import bedash from "../images/bedash.png"
+import vibora from '../images/vibora.jfif'
+import sunken from "../images/sunken.jpg"
+import disarm from "../images/disarm.jpg"
+import wingit from "../images/wingit.jpg"
 
 
 /*
@@ -16,48 +18,63 @@ import Voxel from "../images/voxel_battle.jpg";
 const cardItems = [
   {
     id: 1,
-    title: "Charter Yacht",
-    image:Charter_Yacht,
-    link:"https://teams24.itch.io/charter-yacht",
-    copy:
-      "Charter Yacht is a unique game developed by Teams24 (a part of our club) which comes under the category of survival game. The game’s unique design allows for the player’s brain to react quickly to the dynamically changing Game environment where the player has to stress upon their visual memory in order to chart a path for the Yacht, making this game a good source of adrenaline rush!",
+    title: "Macabre",
+    image: Macabre,
+    link: "https://tejas022.itch.io/macabre",
+    copy: "Macabre Game, created by GDU PICT students Tejas Bendkule, Malhar Choure, and Chinmay Surve, is a top-notch 3D horror experience. Using Unity and Blender, they crafted a spooky world that won first prize at IIT Madras."
   },
   {
     id: 2,
-    title: "Chaos Awakens",
-    image:chaos,
-    link:"https://teams24.itch.io/voxel-battle-chaos-awakens",
-    copy: "Chaos Awakens is a game developed by Teams24 (a part of our club) which comes under the category of shooter and survival games. The game’s unique design blends both the genres of games and employs a unique algorithm for solving the enemy-crowding problem in normal 2D shooter video games. The game is a sequel of the Voxel Battle and with some noteworthy changes made in the game design to make it more chaotic and addictive."
+    title: "Vibora",
+    image: vibora,
+    link: "https://gamedevutopia.itch.io/vibora-game",
+    copy:
+      "Taking steps from the classic Snake Game but with a potent and clever enemy alike which targets your food and life even if it means its demise. Get your snake rolling and bring your best arcade skills to get survive and thrive! Made By Co Founder of GDU Apurv Henkare in Love2D (Lua).",
   },
   {
     id: 3,
-    title: "Connect 4",
-    image:Connect,
+    title: "Dicey Roads",
+    image: dicey,
     copy:
-      "Connect 4 is a game developed by Teams24 (a part of our club) which comes under the category of puzzles and party games and is currently published on the Itch.io platform. Inspired from the classic cross-and-naughts (commonly known as X and O), the game brings new complexity to the puzzle and its unique design and GUI facilitates realistic gameplay.",
-    link:"https://teams24.itch.io/connect-4"
-    },
+      "A puzzle and strategy game where your wits are tested to see if you can win before rage quitting or punching a hole in your monitor. Also since it was originally made for a jam don't spam keys. Made By Tejas Sonone, Ayush Gupta and Malhar Choure in Unity (C#).",
+    link: "https://tejas022.itch.io/dicey-roads"
+  },
   {
     id: 4,
-    title: "Cubicles",
-    image:Cubicles,
-    link:"https://teams24.itch.io/pict-cubicles",
-    copy: "PICT Cubicles is a hyper-casual game developed by Teams24 (a part of our club) and is currently hosted on itch.io platform. The game follows an infinite loop approach and has been inspired from everyone’s favourite hyper-casual game Flappy Bird by dotGears studios."
+    title: "BE-Dash",
+    image: bedash,
+    link: "https://kushalbhalgat.itch.io/be-dash",
+    copy: "B.E Dash, a solo survival game depicting the tough engineering journey, was created by Kushal Balghat from GDU PICT using Unity. Each game level mirrors a year, illustrating the shift from knowing everything to knowing nothing. The game captures the dynamic difficulty of engineering, offering a hardcore challenge."
   },
   {
     id: 5,
-    title: "Star Endurance",
-    image:Star,
-    link:"https://teams24.itch.io/star-endurance",
-    copy: "Star Endurance is a game developed by GameDevUtopia which comes under the category of third person survival shooter and is currently published on the Itch.io platform. The game design is inspired from the old school arcade game named Asteroid, which is a space themed multidirectional shooter.Our game adds various twists to that concept."
+    title: "Event Horizon",
+    image: event_horizon,
+    link: "https://gamedevutopia.itch.io/event-horizon",
+    copy: "Event Horizon is a unique game centered around the theme of parallel worlds. Crafted with thoughtful level design, the game features four distinct levels. Made In Love2d (Lua) By Apurv and Prajwal. This Game also won IIIT Kottayam Game Jam."
   },
   {
     id: 6,
-    title: "Voxel Battle",
-    image:Voxel,
-    link:"https://teams24.itch.io/voxel-battle",
-    copy: "Voxel Battle is a game developed by Teams24 (a part of our club) which comes under the category of shooter and survival games and is currently published on the Itch.io platform. The game’s unique design blends both the genres of games and employs a unique algorithm for solving the enemy-crowding problem in normal 2D shooter video games."
-  }
+    title: "Sunken",
+    image: sunken,
+    link: "https://gamedevutopia.itch.io/sunken",
+    copy: "Aliens attacked Earth, and we're safe underwater with antimatter railguns as our last defense. In a game by GDU Co-founders Mihir Ranade, Prajwal Pawar, and Apurv Henkare using Love2D (Lua), your mission is to deliver antimatter warheads to load up the railguns and save humanity."
+  },
+  {
+    id: 7,
+    title: "Disarm-It",
+    image: disarm,
+    link: "https://bharathk33.itch.io/disarm-it",
+    copy: "Disarm It, a game by S. Bharath Krishnan and S. Krishna Narayan from GDU IIIT Kottayam, is a survival challenge in Unity (C#). In this game, a bomb is planted on a car, and you have just 2 minutes to survive. Can you disarm it and make it out in time?"
+  },
+  {
+    id: 8,
+    title: "Wing-It",
+    image: wingit,
+    link: "https://bharathk33.itch.io/wingit",
+    copy: "Inspired by Flappy Bird and created using the C++ programming language with the SDL library. In this game, players guide a young bird through a challenging environment filled with falling rocks. Credits to the developers: Pratyush, Bharath, Gowrish, and Govind from GDU IIIT Kottayam."
+  },
+
 ];
 
 function determineClasses(indexes, cardIndex) {
@@ -109,34 +126,34 @@ const CardCarousel = () => {
 
   return (
     <div className="lg:m-16">
-    <div className="justify-content-center gx-0 row align-self-center" id="project_gallery">
-    <h1 className="project_heading">Project Gallery</h1>
-      <ul className="card-carousel">
-        {cardItems.map((card, index) => (
-          <li
-            key={card.id}
-            className={`Project_card ${determineClasses(indexes, index)}`}
-          > 
-            
-                <div className="row">
-                    <div className="col-md-3 col-sm-6 project_col " ><img src={card.image}  alt="img not found" className="project_image"></img></div>
-                    <div className="col-md-9 col-sm-6 project_col" ><h2 className="game_name">{card.title}</h2>
-            <p style={{textAlign:"justify-left",color:"white"}}>{card.copy}</p>
-            <br/>
-            <a href={card.link} className="playbtn">Play</a>
-           
-            
-            </div>
+      <div className="justify-content-center gx-0 row align-self-center" id="project_gallery">
+        <h1 className="project_heading">Project Gallery</h1>
+        <ul className="card-carousel">
+          {cardItems.map((card, index) => (
+            <li
+              key={card.id}
+              className={`Project_card ${determineClasses(indexes, index)}`}
+            >
+
+              <div className="row">
+                <div className="col-md-3 col-sm-6 project_col " ><img src={card.image} alt="img not found" className="project_image"></img></div>
+                <div className="col-md-9 col-sm-6 project_col" ><h2 className="game_name">{card.title}</h2>
+                  <p style={{ textAlign: "justify-left", color: "white" }}>{card.copy}</p>
+                  <br />
+                  <a href={card.link} className="playbtn">Play</a>
+
+
                 </div>
-           
-            
-            
-             
-            
-          </li>
-        ))}
-      </ul>
-    </div>
+              </div>
+
+
+
+
+
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };
