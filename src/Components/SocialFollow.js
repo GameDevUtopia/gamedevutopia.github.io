@@ -1,9 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faYoutube,
   faLinkedin,
-  faTwitter,
   faInstagram
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -21,13 +19,8 @@ export default function SocialFollow() {
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
         <p>LinkedIn</p>
       </a>
-      {/* <a href="https://www.youtube.com/@gamedevutopia3007/"
-        className="youtube social">
-        <FontAwesomeIcon icon={faYoutube} size="2x" />
-        <p>Youtube</p>
-      </a> */}
       <h3 className="mt-3">Our Branches</h3>
-      <a href="https://www.instagram.com/gamedevutopia/"
+      <a href="https://www.instagram.com/gamedevutopia_pict/"
         className="instagram social">
         <FontAwesomeIcon icon={faInstagram} size="2x" />
         <p>GDU PICT</p>

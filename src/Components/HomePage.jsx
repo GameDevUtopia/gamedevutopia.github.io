@@ -1,8 +1,8 @@
 // import {Link} from "react-router-dom"
-import yacht from "../images/CharterYacht.png"
+// import yacht from "../images/CharterYacht.png"
 import "../Styles/HomePage.css";
-import React, { Component } from "react";
-import {Link} from 'react-scroll'
+import React, { } from "react";
+import { Link } from 'react-scroll'
 /*function LandingPageButton() {
     return (<button class=" buttonClass" > 
     <span className="buttonClass">
@@ -56,7 +56,7 @@ const HomePage = () => {
         <div className='home'>
             <h1>Welcome to GameDevUtopia</h1>
             <p>A student-run Game Developers community</p>
-            <button className="buttonClass"><Link  to="about_us" spy={true} smooth={true}>About Us</Link></button>
+            <button className="buttonClass"><Link to="about_us" spy={true} smooth={true}>About Us</Link></button>
         </div>
     );
 };
