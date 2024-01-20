@@ -33,7 +33,7 @@ export default function Navbar() {
         className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
         <ul className="link">
           <li>
-            <a className="NavLink" href="/" onClick={() => { setIsNavExpanded(!isNavExpanded); }}>Home</a>
+            <a className="NavLink" href="#" onClick={() => { setIsNavExpanded(!isNavExpanded); }}>Home</a>
           </li>
           <li>
             <a className="NavLink" href="#about_us" onClick={() => { setIsNavExpanded(!isNavExpanded); }}>About Us</a>
