@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.4f93f644.css",
-    "main.js": "/static/js/main.64f41898.js",
-    "static/js/787.05b59df5.chunk.js": "/static/js/787.05b59df5.chunk.js",
+    "main.css": "/static/css/main.43a838a5.css",
+    "main.js": "/static/js/main.b7627752.js",
+    "static/js/787.55bfa84e.chunk.js": "/static/js/787.55bfa84e.chunk.js",
     "static/media/macabre.png": "/static/media/macabre.1c3d31ed963ef7ccb862.png",
     "static/media/CharterYacht.png": "/static/media/CharterYacht.9f859f4587b512f93dda.png",
     "static/media/gdu_logo.png": "/static/media/gdu_logo.7ecd244d3f80faa5df09.png",
@@ -22,12 +22,12 @@
     "static/media/web_design.png": "/static/media/web_design.e7fdce95b28dd26190f2.png",
     "static/media/unity_logo.png": "/static/media/unity_logo.476c154c9907b53486f5.png",
     "index.html": "/index.html",
-    "main.4f93f644.css.map": "/static/css/main.4f93f644.css.map",
-    "main.64f41898.js.map": "/static/js/main.64f41898.js.map",
-    "787.05b59df5.chunk.js.map": "/static/js/787.05b59df5.chunk.js.map"
+    "main.43a838a5.css.map": "/static/css/main.43a838a5.css.map",
+    "main.b7627752.js.map": "/static/js/main.b7627752.js.map",
+    "787.55bfa84e.chunk.js.map": "/static/js/787.55bfa84e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f93f644.css",
-    "static/js/main.64f41898.js"
+    "static/css/main.43a838a5.css",
+    "static/js/main.b7627752.js"
   ]
 }
