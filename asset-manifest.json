@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.525b58bc.css",
-    "main.js": "/static/js/main.9e0e006a.js",
+    "main.css": "/static/css/main.4f93f644.css",
+    "main.js": "/static/js/main.64f41898.js",
     "static/js/787.05b59df5.chunk.js": "/static/js/787.05b59df5.chunk.js",
     "static/media/macabre.png": "/static/media/macabre.1c3d31ed963ef7ccb862.png",
     "static/media/CharterYacht.png": "/static/media/CharterYacht.9f859f4587b512f93dda.png",
@@ -22,12 +22,12 @@
     "static/media/web_design.png": "/static/media/web_design.e7fdce95b28dd26190f2.png",
     "static/media/unity_logo.png": "/static/media/unity_logo.476c154c9907b53486f5.png",
     "index.html": "/index.html",
-    "main.525b58bc.css.map": "/static/css/main.525b58bc.css.map",
-    "main.9e0e006a.js.map": "/static/js/main.9e0e006a.js.map",
+    "main.4f93f644.css.map": "/static/css/main.4f93f644.css.map",
+    "main.64f41898.js.map": "/static/js/main.64f41898.js.map",
     "787.05b59df5.chunk.js.map": "/static/js/787.05b59df5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.525b58bc.css",
-    "static/js/main.9e0e006a.js"
+    "static/css/main.4f93f644.css",
+    "static/js/main.64f41898.js"
   ]
 }
